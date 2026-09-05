@@ -3,9 +3,7 @@ from app.config.settings import settings
 from app.usuarios.gestor import registrar_usuario, listar_usuarios, buscar_usuario
 
 def mostrar_menu():
-    print(f"\n{'='*30}")
-    print(f"  {settings.APP_NAME} v{settings.APP_VERSION}")
-    print(f"{'='*30}")
+    print(f"\n{settings.APP_NAME} v{settings.APP_VERSION}")
     print("1. Registrar nuevo usuario")
     print("2. Listar todos los usuarios")
     print("3. Buscar usuario por nombre")
@@ -36,8 +34,8 @@ def main():
 
         elif opcion == "4":
             print(f"\nConfiguración del Sistema:")
-            print(f"- Administrador: {settings.ADMIN_USER}")
-            print(f"- Modo Debug: {settings.DEBUG}")
+            print(f"Administrador: {settings.ADMIN_USER}")
+            print(f"Modo Debug: {settings.DEBUG}")
 
         elif opcion == "5":
             print("Saliendo del sistema...")

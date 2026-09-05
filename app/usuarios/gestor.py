@@ -24,7 +24,7 @@ def listar_usuarios():
     if not usuarios:
         return "No hay usuarios registrados actualmente."
 
-    output = "\n--- Lista de Usuarios ---\n"
+    output = "\nLista de Usuarios\n"
     for i, user in enumerate(usuarios, 1):
         output += f"{i}. Nombre: {user['nombre']} | Edad: {user['edad']} | Email: {user['email']}\n"
     return output
@@ -38,5 +38,5 @@ def buscar_usuario(nombre_busqueda: str):
 
     output = f"\nResultados para '{nombre_busqueda}':\n"
     for user in resultados:
-        output += f"- {user['nombre']} ({user['email']})\n"
+        output += f"Nombre: {user['nombre']} ({user['email']})\n"
     return output
