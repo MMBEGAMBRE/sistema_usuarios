@@ -67,7 +67,7 @@ python main.py
 ## Reflexion Final (Video)
 En el siguiente video se explica detalladamente la importancia de la modularizacion, el aislamiento de dependencias y el uso seguro de variables de entorno:
 
-**Link al video en YouTube**: [TU_LINK_AQUI]
+**Link al video en YouTube**: [https://youtu.be/jybPh1zLFZE](https://youtu.be/jybPh1zLFZE)
 
 ### Puntos clave:
 1. **Ventajas de modularizar**: Facilita el mantenimiento, la escalabilidad y las pruebas unitarias.
