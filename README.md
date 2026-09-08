@@ -53,14 +53,14 @@ python main.py
 ## Evidencias de Desarrollo
 
 ### 1. Creacion del Entorno Virtual e Instalacion
-[Entorno Virtual](img/1.jpeg)
-[Entorno python-dotenv instalado](img/2.jpeg)
+![Entorno Virtual](img/1.jpeg)
+![Entorno python-dotenv instalado](img/2.jpeg)
 
 ### 2. Uso de Variables de Entorno
-[uso de variable de entorno](img/3%20y%204.jpeg)
+![uso de variable de entorno](img/3_y_4.jpeg)
 
 ### 3. Ejecucion del Sistema y Validaciones
-[ejecucion del sistema ](img/3%20y%204.jpeg)
+![ejecucion del sistema](img/3_y_4.jpeg)
 
 ---
 
